@@ -1,0 +1,143 @@
+.containes {
+    width: 100%;
+  margin-left: 200px;
+   margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chart-container {
+    margin-bottom: 20px;
+  }
+  
+  .chart-header {
+    margin-bottom: 10px;
+  }
+  
+  .chart-header h2 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .chart-header p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .chart-tabs {
+    margin-bottom: 10px;
+  }
+  
+  .chart-tabs button {
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .chart-tabs button.active {
+    background-color: #8884d8;
+    color: #fff;
+  }
+  
+  .chart-tabs button:hover {
+    background-color: #ddd;
+  }
+  
+  .recharts-tooltip {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recharts-tooltip p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .recharts-legend {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .recharts-legend li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .recharts-legend li span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    border-radius: 50%;
+  }
+  
+  .recharts-legend li span:first-child {
+    background-color: #8884d8;
+  }
+  
+  .recharts-legend li span:last-child {
+    background-color: #82ca9d;
+  }
+  
+  .pie-chart {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+  }
+  
+  .pie-chart.pie {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .pie-chart.slice {
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .pie-chart.slice:hover {
+    transform: scale(1.1);
+  }
+  
+  .pie-chart.label {
+    font-size: 14px;
+    color: #666;
+    text-anchor: middle;
+  }
+  
+  .pie-chart.tooltip {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pie-chart.tooltip::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #fff transparent transparent transparent;
+  }
+  .dws{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1265px;
+    margin-top: 20px;
+    margin-left: -950px;
+    margin-right: 20px;
+  }

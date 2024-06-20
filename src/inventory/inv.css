@@ -1,0 +1,98 @@
+.container1 {
+    max-width: 1200px;
+   margin-left: 260px;
+   margin-top: -15px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .ui{
+    margin-left: 260px;
+  }
+    .header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+   
+  }
+  
+  .summary-cards1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+  }
+  
+  .summary-card1 {
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
+    background-color:#b8b9fd;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .summary-card1 .icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .summary-card1 .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .summary-card1 .content p {
+    margin-bottom: 10px;
+  }
+  
+  .summary-card1 .content span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .purchase-invoice {
+    margin-bottom: 20px;
+  }
+  
+  .purchase-invoice table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .purchase-invoice th, .purchase-invoice td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .top-5-purchase-product {
+    margin-bottom: 20px;
+  }
+  
+  .category-filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .category-filter button {
+    margin-right: 10px;
+  }
+  
+  .charts {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .pie-chart, .bar-chart {
+    width: 50%;
+    margin: 10px;
+  }
+  
+  .pie-chart h3, .bar-chart h3 {
+    margin-bottom: 10px;
+  }

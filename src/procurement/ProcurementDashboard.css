@@ -1,0 +1,148 @@
+/* ProcurementDashboard.css */
+
+.dashboard1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-left: 250px;
+}
+
+.card1 {
+  width: 200px;
+  height: 120px;
+  background-color: #b8b9fd;
+  border-radius: 2px;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card1 p {
+  font-size: 16px;
+  color: #666;
+}
+
+.charts1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.chart-container1 {
+  width: 45%;
+  height: 400px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Style for charts inside the chart containers can be customized using chart.js options */
+/* ProcurementDashboard.css */
+
+/* Customize the appearance of chart tooltips */
+.chartjs-tooltip {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border-radius: 4px;
+  padding: 6px 10px;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+/* Style for chart tooltip header */
+.chartjs-tooltip-header {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+/* Style for chart tooltip body */
+.chartjs-tooltip-body {
+  font-size: 14px;
+}
+
+/* Style for chart tooltip footer */
+.chartjs-tooltip-footer {
+  margin-top: 4px;
+}
+
+/* Customize the appearance of chart legend */
+.chartjs-legend {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style for legend item */
+.chartjs-legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+/* Style for legend color box */
+.chartjs-legend-color {
+  width: 20px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+/* Style for legend label */
+.chartjs-legend-label {
+  font-size: 14px;
+}
+
+/* Customize the appearance of chart axis labels */
+.chartjs-axis-label {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Customize the appearance of chart grid lines */
+.chartjs-grid-line {
+  stroke: #ddd;
+}
+
+/* Customize the appearance of chart data points */
+.chartjs-point {
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+/* Customize the appearance of selected data points */
+.chartjs-point.selected {
+  background-color: #333;
+}
+
+/* Customize the appearance of chart lines */
+.chartjs-line {
+  fill: none;
+  stroke-width: 2;
+}
+
+/* Customize the appearance of chart bars */
+.chartjs-bar {
+  fill-opacity: 0.8;
+  transition: fill-opacity 0.3s ease;
+}
+
+/* Style for chart title */
+.chart-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
